@@ -1,0 +1,22 @@
+{
+  "name": "build_a_personal_website_portfolio_webpage",
+  "version": "0.0.1",
+  "description": "A Personal Portfolio Webpage project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "?.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "KinderCappy",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-util": "^3.0.8"
+  }
+}
