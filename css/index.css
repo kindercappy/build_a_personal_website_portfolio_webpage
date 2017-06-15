@@ -2,6 +2,37 @@
  * index.scss
  * - Add any styles you want here!
  */
-body {
-  background: #000000;
+@media (min-width: 770px) {
+  nav {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    height: 100px;
+  }
+  nav .navbar-nav {
+    height: 100px;
+  }
+  nav .nav-item {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    height: 60px;
+    margin: auto;
+    transition: height .5s;
+  }
+  nav .nav-item:hover {
+    height: 100px;
+  }
+}
+.container {
+  background-color: orange;
+}
+
+.navbar-brand {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1.4px solid #00BFFF;
+  border-radius: 5px;
+}
+.navbar-brand:hover {
+  background-color: #00BFFF;
+  transition: background-color .4s ease-in-out;
+  color: #000000;
 }
