@@ -1,0 +1,30 @@
+// Load Fonts
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Merriweather|Josefin+Slab|Oswald|Bree+Serif);
+
+$color_offwhite: #EEE8D6;
+$color_darkblue: #022933;
+$color_yellow  : #FFBA00;
+$color_blue    : #0076A3;
+$color_green   : #548C27;
+$color_orange  : #F39856;
+$color_red     : #D14348;
+$color_purple  : #6D73C2;
+$color_black   : #000000;
+$color_blue    : #00BFFF;
+$color_white   : #FFFFFF;
+
+
+$color-main: $color_darkblue;
+$color-backgrounds: $color_offwhite;
+$color-headlines: $color_red;
+
+
+$font-main: Merriweather, Helvetica, sans-serif;
+$font-highlight: 'Bree Serif', Helvetica, sans-serif;
+
+//breakpoints
+
+$small:		450px;
+$medium:	760px;
+$large:		1200px;

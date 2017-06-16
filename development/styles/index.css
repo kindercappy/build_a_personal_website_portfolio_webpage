@@ -45,6 +45,10 @@
   border-radius: 5px;
 }
 
+.type_it {
+  font-size: 1em;
+}
+
 .container {
   background-color: orange;
 }
@@ -53,4 +57,9 @@
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 5px;
+}
+
+img {
+  width: 100%;
+  height: 900px;
 }
