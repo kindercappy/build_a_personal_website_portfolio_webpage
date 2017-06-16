@@ -3,6 +3,7 @@
  * - Add any styles you want here!
  */
 // @import "_reset.scss";
+@import "_navigation.scss";
 
 $color_black :#000000;
 $color_blue : #00BFFF;
@@ -13,30 +14,7 @@ body {
   
 }
 
-// ------------------------- NAVIGATION STYLES START------------------------------
-@media(min-width: 770px){
-	nav{
-	  	// padding: 24px;
-	  	// text-align: center;
-	  	// font-family: Raleway;
-	  	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-	  	height: 100px;
-		  	.navbar-nav{
-		  	  	// background-color: blue;
-		  	  	height: 100px;
-		  	}
-		  	.nav-item{
-		  		border-bottom: 1px solid white;
-		  		border-top: 1px solid white;
-		  		height: 60px;
-		  		margin: auto;
-		  		transition: height .5s;
-		  			&:hover{
-		  				height: 100px;
-		  			}
-		  	}
-	}
-}
+
 .container{
 	background-color: orange;
 }
@@ -44,16 +22,16 @@ body {
 	// background-color: $color_blue;
 	padding-left: 10px;
 	padding-right: 10px;
-	border: 1.4px solid $color_blue;
+	// border: 1.4px solid $color_blue;
 	border-radius: 5px;
 	// color: $color_white;
 
-	&:hover{
-		background-color: $color_blue;
-		transition: background-color .4s ease-in-out;
-		// border: 1.4px solid $color_white;
-		color: $color_black;
-	}
+	// &:hover{
+	// 	background-color: $color_blue;
+	// 	transition: background-color .4s ease-in-out;
+	// 	// border: 1.4px solid $color_white;
+	// 	color: $color_black;
+	// }
 } 
 
 

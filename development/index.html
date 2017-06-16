@@ -32,16 +32,22 @@
   <body>
 
 <section role="navigation">
-  <nav class="navbar bg-inverse navbar-toggleable-sm fixed-  top"><!-- navbar-inverse -->
-    <div class="container">
+  <nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm fixed-top"><!-- navbar-inverse -->
+    <!-- <div class="container"> -->
+    <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#myNavigation" aria-controls="myNavigation" aria-expanded="false" aria-label="Toggle navigation" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
     <a href="#" class="navbar-brand">KP</a>
-      <div class="navbar-nav">
-        <a class="p-3 nav-item nav-link active" href="#">Home</a>
-       <!-- <div class="nav-item-outer-div"> -->
-        <a class="p-3 nav-item nav-link" href="#">About</a>
-        <a class="p-3 nav-item nav-link" href="#">Contact Me</a>
-      </div><!-- <div class="navbar-nav"> -->
-    </div><!-- <div class="container"> -->
+      <div class="collapse navbar-collapse" id="myNavigation">
+        <div class="navbar-nav">
+          <a class="p-3 nav-item nav-link active text-center" href="#">Home</a>
+         <!-- <div class="nav-item-outer-div"> -->
+          <a class="p-3 nav-item nav-link text-center" href="#">About</a>
+          <a class="p-3 nav-item nav-link text-center" href="#">Contact Me</a>
+        </div><!-- <div class="navbar-nav"> -->
+      </div><!-- <div class="collapse navbar-collapse"> -->
+    <!-- </div><div class="container"> -->
   </nav>
 </section>
 

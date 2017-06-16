@@ -2,25 +2,49 @@
  * index.scss
  * - Add any styles you want here!
  */
-@media (min-width: 770px) {
+@media (min-width: 768px) {
   nav {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     height: 100px;
   }
   nav .navbar-nav {
     height: 100px;
+    width: 100%;
   }
   nav .nav-item {
+    width: 50%;
     border-bottom: 1px solid white;
     border-top: 1px solid white;
     height: 60px;
-    margin: auto;
-    transition: height .5s;
+    margin: 20px 10px;
+    transition: height .4s;
   }
   nav .nav-item:hover {
-    height: 100px;
+    height: 70px;
   }
 }
+@media (max-width: 767px) {
+  .nav-item {
+    margin: 0 auto;
+    -webkit-transition: border-right 3s ease,border-left .5s ease;
+    -moz-transition: border-right 3s ease,border-left .5s ease;
+    -o-transition: border-right 3s ease,border-left .5s ease;
+    -ms-transition: border-right 3s ease,border-left .5s ease;
+    transition: border-right .5s ease-in,border-left .5s ease-in;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+  }
+  .nav-item:hover {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+  }
+}
+.navbar-brand {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
 .container {
   background-color: orange;
 }
@@ -28,11 +52,5 @@
 .navbar-brand {
   padding-left: 10px;
   padding-right: 10px;
-  border: 1.4px solid #00BFFF;
   border-radius: 5px;
-}
-.navbar-brand:hover {
-  background-color: #00BFFF;
-  transition: background-color .4s ease-in-out;
-  color: #000000;
 }
