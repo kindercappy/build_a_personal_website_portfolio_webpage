@@ -7,4 +7,8 @@
 	background-position: center center;
 	background-size: cover;
 	height: $height;
+
+	@media(max-width: 500px){
+		height: 400px;
+	}
 }

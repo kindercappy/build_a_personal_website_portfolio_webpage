@@ -1,0 +1,17 @@
+.home_contact{
+	@include backImage('../images/DSC04319.JPG');
+	a{
+		background-color: transparent;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+		padding-top: .8rem;
+		padding-bottom: .8rem;
+		border-radius: 20px;
+		// margin: .2rem;
+		font-size: 2rem;
+		transition:background-color 1s;
+		&:hover{
+			background-color: white;			
+		}
+	}
+}
