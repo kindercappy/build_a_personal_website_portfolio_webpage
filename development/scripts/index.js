@@ -10,5 +10,5 @@ $('.type_it').typeIt({
 	strings: ["This is a string","This is a string","This is a string"],
 	speed:150,
 	autoStart:true,
-	// breakLines:false
+	breakLines:false
 });

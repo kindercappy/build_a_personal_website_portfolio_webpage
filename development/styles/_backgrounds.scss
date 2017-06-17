@@ -10,7 +10,7 @@
 		padding-bottom: 20px;
 
 		h1{
-			color: $yellow;
+			color: $color_yellow;
 			font-family: $font_main;
 			font-size: 5rem;
 			line-height: 105%;
@@ -23,4 +23,7 @@
 			margin-top: 0;
 		}
 	}
+}
+.jumbotron{
+	@include backImage('../images/DSC04319.JPG');
 }

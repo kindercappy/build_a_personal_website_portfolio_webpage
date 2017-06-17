@@ -4,14 +4,10 @@ nav{
 }
 @media(min-width: 768px){
 	nav{
-	  	// padding: 24px;
-	  	// text-align: center;
-	  	// font-family: Raleway;
 	  	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 	  	height: 100px;
 	  	// Styles for hover effects
 		  	.navbar-nav{
-		  	  	// background-color: blue;
 		  	  	height: 100px;
 		  	  	width: 100%;
 		  	}
@@ -21,9 +17,13 @@ nav{
 		  		border-top: 1px solid white;
 		  		height: 60px;
 		  		margin: 20px 10px;
-		  		transition: height .4s;
+		  		// background-color: transparent;
+		  		// color: $color_white;
+		  		transition: height .3s;
 		  			&:hover{
 		  				height: 70px;
+		  				// background-color: $color_white;
+		  				// color: $color_black;
 		  			}
 		  	}
 	}
@@ -33,8 +33,6 @@ nav{
 
 	}
 	.nav-item{
-		// border-right: 1px solid white;
-		// border: none;
 		margin: 0 auto;
 		-webkit-transition:  border-right 3s ease,border-left .5s ease;
  		-moz-transition:  border-right 3s ease,border-left .5s ease;
@@ -44,26 +42,14 @@ nav{
  		border-right: 1px solid transparent;
  		border-left: 1px solid transparent;
 		&:hover{
-			// border-right: 1px solid white;
-			// border-left: 1px solid white;
-			// transition:border-right 1s ease;
 			border-right: 1px solid white;
 			border-left: 1px solid white;
 		}
 	}
 }
 .navbar-brand{
-	// background-color: $color_blue;
 	padding-left: 10px;
 	padding-right: 10px;
-	// border: 1.4px solid $color_blue;
 	border-radius: 5px;
-	// color: $color_white;
-
-	// &:hover{
-	// 	background-color: $color_blue;
-	// 	transition: background-color .4s ease-in-out;
-	// 	// border: 1.4px solid $color_white;
-	// 	color: $color_black;
-	// }
 } 
+

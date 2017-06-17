@@ -2,6 +2,7 @@
  * index.scss
  * - Add any styles you want here!
  */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Merriweather|Josefin+Slab|Oswald|Bree+Serif);
 @media (min-width: 768px) {
   nav {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
@@ -17,7 +18,7 @@
     border-top: 1px solid white;
     height: 60px;
     margin: 20px 10px;
-    transition: height .4s;
+    transition: height .3s;
   }
   nav .nav-item:hover {
     height: 70px;
@@ -46,20 +47,41 @@
 }
 
 .type_it {
-  font-size: 1em;
+  font-size: 5em;
 }
 
-.container {
-  background-color: orange;
-}
-
-.navbar-brand {
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 5px;
-}
-
-img {
+.background {
+  color: #EEE8D6;
+  margin: 20px 0;
   width: 100%;
-  height: 900px;
+  display: table;
+}
+.background .container {
+  display: table-cell;
+  vertical-align: bottom;
+  padding-bottom: 20px;
+}
+.background .container h1 {
+  color: #FFBA00;
+  font-family: Merriweather, Helvetica, sans-serif;
+  font-size: 5rem;
+  line-height: 105%;
+  margin-bottom: 0;
+  padding: 0 10%;
+}
+.background .container p {
+  padding: 0 10%;
+  margin-top: 0;
+}
+
+.jumbotron {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../images/DSC04319.JPG");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+body {
+  background-color: #737477;
 }
