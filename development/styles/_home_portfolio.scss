@@ -2,4 +2,9 @@
 	@include backImageContain('../images/dream_reel_1300x704.png');
 	margin: .5em;
 	padding: 1em;
+	border-radius: 20px;
+	border: 1px solid $color_black;
+	// &:hover{
+	// 	box-shadow: 0 0 10px 1px $color_black;
+	// }
 }

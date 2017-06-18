@@ -1,0 +1,183 @@
+// first portfolio 
+#toggle,#toggle2{
+	height: 18px;
+	border-radius: 10px;
+	position: absolute;
+	// bottom: 0px;
+	// left: 20px;
+	width: 200px;
+	margin: 0 auto;
+	background-color:$color_offwhite;
+	box-shadow: 0 0 10px 1px transparent;
+	border: 2px solid transparent;
+	padding-bottom: 15px;
+	transition:box-shadow .5s,border .5s;
+	 &:hover{
+	 	// background-color: $color_white;
+		box-shadow: 0 0 10px 1px $color_offwhite;
+		border: 2px solid $color_white;
+	 }
+}
+#poptext,#poptext2 {
+		// width: 50px;
+		height: 18px;
+		font-size: 12px;
+		// text-align: left;
+		padding-left: 23px;
+		overflow: hidden;
+		background: url('../images/arrows.png') no-repeat 5px 0px;
+		cursor: pointer;
+		margin: 0 0;
+		border-radius: 10px;
+}
+#box,#box2 {
+		margin:0 auto;
+		position:relative;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		-webkit-border-radius:19px ;
+		-moz-border-radius:19px ;
+		border-radius:19px ;
+		text-shadow: 0 1px 2px #000;
+		
+		background-color:#644d52;		
+		background:
+			url('images/noisetexture.png'), -webkit-linear-gradient(
+			rgba(100,77,82,1 ) 0%,
+			rgba(51,37,50,1) 100%);
+		background:
+			url('images/noisetexture.png'), -moz-linear-gradient(
+			rgba(100,77,82,1 ) 0%,
+			rgba(51,37,50,1) 100%);
+		background:
+			url('images/noisetexture.png'), -o-linear-gradient(
+			rgba(100,77,82,1 ) 0%,
+			rgba(51,37,50,1) 100%);
+		background:
+			url('images/noisetexture.png'), -ms-linear-gradient(
+			rgba(100,77,82,1 ) 0%,
+			rgba(51,37,50,1) 100%);
+		background:
+			url('images/noisetexture.png'), linear-gradient(
+			rgba(100,77,82,1 ) 0%,
+			rgba(51,37,50,1) 100%);
+		
+		-webkit-box-shadow: inset 0px 7px  4px
+			rgba(0,0,0,0.28),0px 0px  4px
+			rgba(255,255,255,1),4px 6px  14px
+			rgba(127,38,8,0.65);
+		-moz-box-shadow: inset 0px 7px  4px
+			rgba(0,0,0,0.28),0px 0px  4px
+			rgba(255,255,255,1),4px 6px  14px
+			rgba(127,38,8,0.65);
+		box-shadow: inset 0px 7px  4px
+			rgba(0,0,0,0.28),0px 0px  4px
+			rgba(255,255,255,1),4px 6px  14px
+			rgba(127,38,8,0.65);
+
+		display: none;
+		opacity: .9;
+}
+#box h2,#box2 h2 {
+		margin: 0;
+		padding-left: 20px;
+		font: normal 2.3em Amaranth; 
+		color:#ff974e;
+		text-align:left;
+		padding-top: 15px;
+}
+
+#box p,#box2 p {
+		margin: 0;
+		padding: 5px 20px 15px 20px;
+		color:#FFF;
+		text-align:left;		
+	}
+// second portfolio 
+// #toggle2{
+// 	position: absolute;
+// 	// bottom: 0px;
+// 	// left: 20px;
+// 	width: 200px;
+// 	margin: 0 auto;
+// }
+
+// #poptext2{
+// 	height: 18px;
+// 	font-size: 12px;
+// 	// text-align: left;
+// 	padding-left: 23px;
+// 	overflow: hidden;
+// 	background: url('../images/arrows.png') no-repeat 5px 0px;
+// 	cursor: pointer;
+// 	margin: 0 0;
+// 	border-radius: 10px;
+// }
+// #box2 {
+// 		margin:0 auto;
+// 		position:relative;
+// 		margin-bottom: 10px;
+// 		margin-top: 10px;
+// 		-webkit-border-radius:19px ;
+// 		-moz-border-radius:19px ;
+// 		border-radius:19px ;
+// 		text-shadow: 0 1px 2px #000;
+		
+// 		background-color:#644d52;		
+// 		background:
+// 			url('images/noisetexture.png'), -webkit-linear-gradient(
+// 			rgba(100,77,82,1 ) 0%,
+// 			rgba(51,37,50,1) 100%);
+// 		background:
+// 			url('images/noisetexture.png'), -moz-linear-gradient(
+// 			rgba(100,77,82,1 ) 0%,
+// 			rgba(51,37,50,1) 100%);
+// 		background:
+// 			url('images/noisetexture.png'), -o-linear-gradient(
+// 			rgba(100,77,82,1 ) 0%,
+// 			rgba(51,37,50,1) 100%);
+// 		background:
+// 			url('images/noisetexture.png'), -ms-linear-gradient(
+// 			rgba(100,77,82,1 ) 0%,
+// 			rgba(51,37,50,1) 100%);
+// 		background:
+// 			url('images/noisetexture.png'), linear-gradient(
+// 			rgba(100,77,82,1 ) 0%,
+// 			rgba(51,37,50,1) 100%);
+		
+// 		-webkit-box-shadow: inset 0px 7px  4px
+// 			rgba(0,0,0,0.28),0px 0px  4px
+// 			rgba(255,255,255,1),4px 6px  14px
+// 			rgba(127,38,8,0.65);
+// 		-moz-box-shadow: inset 0px 7px  4px
+// 			rgba(0,0,0,0.28),0px 0px  4px
+// 			rgba(255,255,255,1),4px 6px  14px
+// 			rgba(127,38,8,0.65);
+// 		box-shadow: inset 0px 7px  4px
+// 			rgba(0,0,0,0.28),0px 0px  4px
+// 			rgba(255,255,255,1),4px 6px  14px
+// 			rgba(127,38,8,0.65);
+
+// 		display: none;
+// 		opacity: .9;
+// }
+// #box2 H2 {
+// 		margin: 0;
+// 		padding-left: 20px;
+// 		font: normal 2.3em Amaranth; 
+// 		color:#ff974e;
+// 		text-align:left;
+// 		padding-top: 15px;
+// }
+// #box2 p {
+// 		margin: 0;
+// 		padding: 5px 20px 15px 20px;
+// 		color:#FFF;
+// 		text-align:left;		
+// }
+#poptext.highlight,#poptext2.highlight {
+  	background: url('../images/arrows.png') no-repeat 5px -18px transparent;
+  }
+  // #poptext2.highlight {
+  // 	background: url('../images/arrows.png') no-repeat 5px -18px hsla(30, 100%, 50%, 0.80); 
+  // }
