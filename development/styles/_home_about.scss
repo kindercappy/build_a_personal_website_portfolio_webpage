@@ -1,37 +1,45 @@
-
+.home_about{
+	img{
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+		}
+		p{
+			padding: 1.5rem;
+			border-radius: 1rem;
+		}
+		.img-thumbnail{
+			border-radius: 1rem;
+		}
+}
 .hide_me{
 	opacity: 0;	
 	background-color: #f7f7f7;
 }
-
-// @media(min-width: 1000px){
-// 	.home_about{
-// 		.row{
-// 			margin-left: 10rem;
-// 		}
-// 	}
-// }
-// @media(min-width: 1400px){
-// 	.home_about{
-// 		.row{
-// 			margin-left: 25rem;
-// 		}
-// 	}
-// }
-
-// break point for col-md 
-@media (min-width: 768px) and (max-width: 991px){
+//Styles for the home page About section
+// col-sm text is 7 and image is 5
+@media (min-width: 577px) and (max-width: 767px){
 	.home_about{
-		padding: 2rem;
-		.row{
-			width: 65%;
+		p{
+			width: 80%;
 			margin: 0 auto;
-			padding: 2rem;
 		}
 		img{
-			// margin-left: 2rem;
-			// height: 90%;
-			padding: .5rem;
+			width: 250px;
+			height: 250px;
+		}
+	}
+}
+//col-xl text is 8 image is 4
+@media (min-width: 1200px){
+	.home_about{
+		p{
+			width: 80%;
+			margin: 0 auto;
+		}
+		img{
+			width: 300px;
+			height: 300px;
 		}
 	}
 }

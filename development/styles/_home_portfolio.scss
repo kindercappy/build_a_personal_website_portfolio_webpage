@@ -1,10 +1,88 @@
+
+//Styles for the home page Portfolio section
 .home_portfolio{
-	@include backImageContain('../images/dream_reel_1300x704.png');
-	margin: .5em;
-	padding: 1em;
-	border-radius: 20px;
-	border: 1px solid $color_black;
-	// &:hover{
-	// 	box-shadow: 0 0 10px 1px $color_black;
-	// }
+	//Portfolio picture transformation for col-sm
+	@media (min-width: 577px) and (max-width: 767px){
+		.transition {
+    		-webkit-transform: scale(1.6); 
+    		-moz-transform: scale(1.6);
+    		-o-transform: scale(1.6);
+    		transform: scale(1.1);
+		}
+		img{
+			// margin-left: 17rem;
+			-webkit-transition: all .4s ease-in-out;
+			-moz-transition: all .4s ease-in-out;
+			-o-transition: all .4s ease-in-out;
+			-ms-transition: all .4s ease-in-out;
+			width:250px;
+    		margin:.5rem;
+		}
+	}
+	//Portfolio picture transformation for col-md
+	@media (min-width: 768px) and (max-width: 991px){
+		.transition {
+    		-webkit-transform: scale(1.6); 
+    		-moz-transform: scale(1.6);
+    		-o-transform: scale(1.6);
+    		transform: scale(1.2);
+		}
+		img{
+			// margin-left: 17rem;
+			-webkit-transition: all .4s ease-in-out;
+			-moz-transition: all .4s ease-in-out;
+			-o-transition: all .4s ease-in-out;
+			-ms-transition: all .4s ease-in-out;
+			width:300px;
+    		margin:1rem;
+		}
+	}
+	//Portfolio picture transformation for col-lg
+	@media (min-width: 992px) and (max-width: 1199px){
+		.transition {
+    		-webkit-transform: scale(1.6); 
+    		-moz-transform: scale(1.6);
+    		-o-transform: scale(1.6);
+    		transform: scale(1.2);
+		}
+		img{
+			// margin-left: 17rem;
+			-webkit-transition: all .4s ease-in-out;
+			-moz-transition: all .4s ease-in-out;
+			-o-transition: all .4s ease-in-out;
+			-ms-transition: all .4s ease-in-out;
+			width:380px;
+    		margin:1rem;
+		}
+	}
+	//Portfolio picture transformation for col-xl
+	@media (min-width: 1200px){
+		width: 70%;
+		margin: 0 auto;
+		h3{
+			padding-bottom: 5rem;
+			font-size: 2rem;
+		}
+		#toggle2{
+			margin-left: 2rem;
+			margin-right: -2rem;
+		}
+		.transition {
+    		-webkit-transform: scale(1.6); 
+    		-moz-transform: scale(1.6);
+    		-o-transform: scale(1.6);
+    		transform: scale(1.2);
+		}
+		img{
+			// margin-left: 17rem;
+			-webkit-transition: all .4s ease-in-out;
+			-moz-transition: all .4s ease-in-out;
+			-o-transition: all .4s ease-in-out;
+			-ms-transition: all .4s ease-in-out;
+			width:600px;
+    		margin:1rem;
+
+		}
+	}
 }
+

@@ -1,28 +1,80 @@
-/**
- * index.scss
- * - Add any styles you want here!
- */
-// @import "_reset.scss";
 // col = max-width 576
 // col-sm = min--width 577 and max-width 767
 // col-md = min-width 768 and max-width 991
 // col-lg = min-width 992 and max-width 1199
 // col-xl = min-width 1200
+// font-family: 'Marcellus SC', serif;
+// font-family: 'Exo 2', sans-serif;
+// font-family: 'Taviraj', serif;
+// font-family: 'Krona One', sans-serif;
+// font-family: 'Croissant One', cursive;
+@import url('https://fonts.googleapis.com/css?family=Croissant+One|Exo+2|Krona+One|Marcellus+SC|Taviraj');
 @import "_variables.scss";
 @import "_mixins.scss";
 @import "_navigation.scss";
 @import "_home_main.scss";
-@import "_backgrounds.scss";
 @import "_home_about.scss";
 @import "_home_contact.scss";
 @import "_home_portfolio.scss";
 @import "_toggle_button.scss";
 @import "_bouncing_arrow.scss";
 
-
-
 body {
-  // background-color: #737477;
+  font-family: 'Taviraj', serif;
+  margin-top: 6rem;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Croissant One', cursive;
+}
+#jumbotron{
+	margin-bottom: 5rem;
+}
+#about_me{
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+#portfolio{
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+#contact_us{
+	margin-top: 5rem;
+}
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+//col-
+@media (max-width: 576px){
+	body {
+  		font-family: 'Taviraj', serif;
+  		margin-top: 3rem;
+	}
+}
+//col-sm
+@media (min-width: 577px) and (max-width: 767px){
+	body {
+  		font-family: 'Taviraj', serif;
+  		margin-top: 3rem;
+	}
+}
+//col-
+@media (max-width: 576px){
+}
+//col-sm
+@media (min-width: 577px) and (max-width: 767px){
+}
+//col-md
+@media (min-width: 768px) and (max-width: 991px){
+}
+//col-lg
+@media (min-width: 992px) and (max-width: 1199px){
+	
+}
+//col-xl
+@media (min-width: 1200px){
+	
 }
 
 

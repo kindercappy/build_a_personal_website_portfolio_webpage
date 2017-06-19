@@ -1,123 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
-  <meta charset="UTF-8" />
-  <title>My New Pen!</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="styles/index.css">
-
+  	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kinder Preet Singh">
+    <meta name="description" content="Demo portfolio of aakriti kashyap">
+    <meta name="keywords" content="portfolio, preet, kinder, kinder preet , html, css, bootstrap, javascript, jquery, freecodecamp">
+ 	<title>My New Pen!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles/index.css">
 </head>
   <body>
-
-<section role="navigation">
-  <nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm"><!-- navbar-inverse -->
-    <!-- <div class="container"> -->
-    <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#myNavigation" aria-controls="myNavigation" aria-expanded="false" aria-label="Toggle navigation" type="button">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <a href="#" class="navbar-brand">KP</a>
-      <div class="collapse navbar-collapse" id="myNavigation">
-        <div class="navbar-nav">
-          <a class="p-3 nav-item nav-link active text-center" href="#">Home</a>
-         <!-- <div class="nav-item-outer-div"> -->
-
-          <a class="p-3 nav-item nav-link text-center" href="#">About</a>
-          <a class="p-3 nav-item nav-link text-center" href="#">Contact Me</a>
-        </div><!-- <div class="navbar-nav"> -->
-      </div><!-- <div class="collapse navbar-collapse"> -->
-    <!-- </div><div class="container"> -->
-  </nav>
-</section>
-
-	<section class="jumbotron" id="jumbotron">
-		<div class="container">
-		<h1>KinderPreet Singh</h1>
-			<p class="type_it"></p>
+  <header id="header" class="">
+  	<section role="navigation">
+	  	<nav role="navigation" class="navbar navbar-inverse bg-inverse navbar-toggleable-sm fixed-top"><!-- navbar-inverse -->
+		    <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#myNavigation" aria-controls="myNavigation" aria-expanded="false" aria-label="Toggle navigation" type="button">
+		      	<span class="navbar-toggler-icon"></span>
+		    </button>
+		    <a href="#" class="navbar-brand">KP</a>
+		      <div class="collapse navbar-collapse" id="myNavigation">
+		        <div class="navbar-nav">
+		          <a href="#jumbotron" class="p-3 nav-item nav-link text-center" href="#"><i class="fa fa-home" aria-hidden="true" ></i> Home</a>
+		         <!-- <div class="nav-item-outer-div"> -->
+		          <a href="#about_me" class="p-3 nav-item nav-link text-center" href="#"><i class="fa fa-male" aria-hidden="true" ></i> </i> About</a>
+		          <a href="#portfolio" class="p-3 nav-item nav-link text-center" href="#"><i class="fa fa-briefcase" aria-hidden="true" ></i> Portfolio</a>
+		          <a href="#ping_me" class="p-3 nav-item nav-link text-center" href="#"><i class="fa fa-address-card" aria-hidden="true" ></i> Ping me</a>
+		        </div><!-- <div class="navbar-nav"> -->
+		      </div><!-- <div class="collapse navbar-collapse"> -->
+		    <!-- </div><div class="container"> -->
+	  	</nav>
+	</section>
+  </header><!-- /header -->
+	<article role="article">
+		<section class="jumbotron" id="jumbotron">
+			<div class="container">
+			<h1 class="text-center">KinderPreet Singh</h1>
+				<p class="type_it text-center"></p>
+			</div>
+		</section>
+		<hr class="style13">
+		<section class="home_about" id="about_me">
+			<div class="container-fluid">
+				<div class="container-fluid">
+				<h3 class="text-center">About me</h3>
+					<div class="row align-items-center">
+						<div class="col-12 col-sm-7 col-md-7 col-lg-8 col-xl-8">
+							<p class="hide_me">Hello there, I am Kinder, a self-taught web developer. I have graduated in BCA from Sikkim Manipal University. 
+							I think of code as an art. I write code on the bleeding edge that's tuned for performance, well structured and responsive in nature. I have a experience of creating mobile-first websites, extensive knowledge of cross browser/multi-device support. Up-to-date familiarity with emerging W3C standards and understanding of Web Accessibility. 
+							My skills include: html, css, javascript, jQuery, bootstrap, scss and github.</p>
+						</div>
+						<div class="col-12 col-sm-5 col-md-5 col-lg-4 col-xl-4">
+							<img class="img-thumbnail hide_me" src="images/me_500x500.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</article>
+<hr class="style13">
+<aside role="complementary">
+	<section class="home_portfolio" id="portfolio">
+		<h3 class="text-center">Portfolio</h3>
+	<!-- <div class="home_portfolio"> -->
+		<div class="container-fluid">
+			<div class="row">
+					<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-5">
+						<div id="toggle">
+							<div id="poptext">Dreal reel production</div>
+							<div class="arrow bounce" id="bounce">
+								<i class="fa fa-chevron-down" aria-hidden="true"></i>
+							</div>
+							<div id="box" style="display:none;"><h2>Dreal reel production</h2>
+								<p>This website was for a production house. The site is fully responsive. The project is made using bsic technologies like <b>HTML5, CSS3 and JacaScript</b></p>
+							</div>	
+							<a href="http://www.dreamreelproduction.com/" target="_blank">
+							<img class="img_transition img-thumbnail" src="images/dream_reel_1300x704.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-5">
+						<div id="toggle2">
+							<div id="poptext2">Satguru Travels</div>
+							<div class="arrow bounce" id="bounce2">
+								<i class="fa fa-chevron-down" aria-hidden="true"></i>
+							</div>
+							<div id="box2" style="display:none;"><h2>Satguru Travels</h2>
+								<p>This website was for a cab company. The site is fully responsive. The project is made using bsic technologies like <b>HTML5, CSS3 and JacaScript</b></p>
+							</div>	
+							<a href="http://www.taxisatguru.com/" target="_blank">
+							<img class="img_transition2 img-thumbnail" src="images/taxi_800x433.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-5">
+						<div id="toggle3">
+							<div id="poptext3">Tribute Page</div>
+							<div class="arrow bounce" id="bounce3">
+								<i class="fa fa-chevron-down" aria-hidden="true"></i>
+							</div>
+							<div id="box3" style="display:none;"><h2>Tribute Page</h2>
+								<p>This project is a sample tribute page made for freecodecamp challenge. It is built with <b>HTML5, CSS3, JavaScript and Bootstrap</b> 4</p>
+							</div>
+							<a href="https://codepen.io/kindercappy/pen/vZGeJV" target="_blank">	
+							<img class="img_transition3 img-thumbnail" src="images/tribure_page_freeCodeCamp_500x200.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
+</aside>
+<hr class="style13">
+<footer role="contentinfo" role="form">
+	<section class="home_contact px-3 py-5" id="ping_me">
+		<form action="index_submit" method="get" accept-charset="utf-8">
+			<h3 class="text-center">Ping me<h3/h3>
+			<div class="form-group">
+				<input class="form-control py-2 my-3" type="text" name="name" placeholder="Your name">
+				<input class="form-control py-2 my-3" type="email" name="email" placeholder="Your email">
+				<input class="form-control py-2 my-3" type="text" name="message" placeholder="Your message">
+			</div>
+			<div class="form-group py-5 text-center">
+				<a href="https://www.facebook.com/kinder.cappy" title="Ping me on twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href="https://www.linkedin.com/in/kinder-preet-singh-250659b6/" title="Ping me on LinkedIn" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+			</div>
+		</form>
+	</section>
+</footer>
 
-<section class="home_about">
-<div class="container-fluid">
-	
-	<div class="row">
-		<div class="col-12 col-sm-12 col-sm-5 col-md-12 col-lg-4 hide_me">
-			<!-- <h3 class="type_it text-center">About me</h3> -->
-			<h3 class="text-center">About me</h3>
-			Lorem Khaled Ipsum is a major key to success. You see that bamboo behind me though, you see that bamboo? Ain’t nothin’ like bamboo. Bless up. Every chance I get, I water the plants, Lion! Lion! We the best. Let’s see what Chef Dee got that they don’t want us to eat. We the best. Every chance I get, I water the plants, Lion! Give thanks to the most high. Stay focused. Look at the sunset, life is amazing, life is beautiful, life is what you make it. Stay focused. To succeed you must believe. When you believe, you will succeed.
-		</div>
-		<div class="">
-			<img class="col-12 col-sm-12 col-sm-5 col-md-12 col-lg-10 img-responsive hide_me" src="images/me_500x500.jpg" alt="">
-		</div>
-	</div>
-</div>
-</section>
-
-<section >
-	<h3 class="text-center">Portfolio</h3>
-<div class="home_portfolio">
-	<div id="toggle">
-		
-		<div id="poptext">About Project</div>
-		<div class="arrow bounce" id="bounce">
-		<!-- <i class="fa fa-arrow-down" aria-hidden="true"></i> -->
-		</div>
-		<div id="box" style="display:none;"><h2>Hi There</h2>
-			<p>This is a JQuery toggle, you're seeing it now because you clicked on the button below to toggle it. You can turn it on and off by clicking on the button below. JQuery lets you easily animate and toggle any elements on the page.</p>
-		</div>	
-		
-	</div>
-</div>
-<div class="home_portfolio">
-	<div id="toggle2">
-		
-		<div id="poptext2">About Project</div>
-		<div class="arrow bounce" id="bounce2">
-		<!-- <i class="fa fa-arrow-down" aria-hidden="true"></i> -->
-		</div>
-		<div id="box2" style="display:none;"><h2>Hi There</h2>
-			<p>This is a JQuery toggle, you're seeing it now because you clicked on the button below to toggle it. You can turn it on and off by clicking on the button below. JQuery lets you easily animate and toggle any elements on the page.</p>
-		</div>
-		
-	</div>
-</div>
-
-</section>
-
-<section class="home_contact px-3 py-5">
-	<form action="index_submit" method="get" accept-charset="utf-8">
-	<!-- <h3 class="type_it text-center hide_me">Ping me!</h3> -->
-	<h3 class="text-center">Ping me<h3/h3>
-	<div class="form-group">
-		<input class="form-control py-2 my-3" type="text" name="name" placeholder="Your name">
-		<input class="form-control py-2 my-3" type="email" name="email" placeholder="Your email">
-		<input class="form-control py-2 my-3" type="text" name="message" placeholder="Your message">
-	</div>
-	<div class="form-group py-5 text-center">
-		<a href="#" title=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-		<a href="#" title=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-		<a href="#" title=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-	</div>
-	</form>
-</section>
-
-      
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
     <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
 	<script src="https://use.fontawesome.com/35f52f28c6.js"></script>
-    
-    <script src="../bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
     <script src="scripts/index.js"></script>
     <script>window.jQuery || document.write("<script src='jquery.min.js'>\x3C/script>")</script>
-    <script>
-		
-	</script>
 
   </body>
 </html>

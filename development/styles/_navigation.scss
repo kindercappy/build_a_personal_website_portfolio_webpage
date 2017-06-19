@@ -1,7 +1,5 @@
-// ------------------------- NAVIGATION STYLES START------------------------------
-nav{
-
-}
+//Styles for the home page Navigation section
+// Break point for screens larger than 768 pixels
 @media(min-width: 768px){
 	nav{
 	  	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
@@ -17,17 +15,14 @@ nav{
 		  		border-top: 1px solid white;
 		  		height: 60px;
 		  		margin: 20px 10px;
-		  		// background-color: transparent;
-		  		// color: $color_white;
 		  		transition: height .3s;
 		  			&:hover{
 		  				height: 70px;
-		  				// background-color: $color_white;
-		  				// color: $color_black;
 		  			}
 		  	}
 	}
 }
+// Break point for screens smaller than 767 pixels
 @media (max-width: 767px) {
 	.navbar-nav{
 
@@ -47,6 +42,7 @@ nav{
 		}
 	}
 }
+//Navigation brancd styling
 .navbar-brand{
 	padding-left: 10px;
 	padding-right: 10px;
