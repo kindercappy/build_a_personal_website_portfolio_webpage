@@ -31,7 +31,7 @@ $(document).ready(function(){
 	  //type it plugin
 	$('.type_it').typeIt({
 		strings: ["Hi, I am Kinder.","I believe a great design can make a good idea even better.","I create websites that have both:",["BEAUTY and BRAIN."]],
-		speed:150,
+		speed:40,
 		autoStart:true,
 		breakLines:true
 	});

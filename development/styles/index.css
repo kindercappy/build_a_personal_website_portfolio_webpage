@@ -113,6 +113,9 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
   border-radius: 5rem;
 }
+.home_contact h3 {
+  color: #FFFFFF;
+}
 .home_contact a {
   background-color: transparent;
   padding-left: 1.5rem;

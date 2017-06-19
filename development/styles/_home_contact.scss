@@ -7,6 +7,9 @@ background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%);
 background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
 	border-radius: 5rem;
+	h3{
+		color: $color_white;
+	}
 	a{
 		background-color: transparent;
 		padding-left: 1.5rem;
